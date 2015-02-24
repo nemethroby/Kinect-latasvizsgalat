@@ -1,0 +1,17 @@
+C:\Users\Róbert\Documents\Kinect\ColorBasics-WPF\obj\Debug\MainWindow.baml
+C:\Users\Róbert\Documents\Kinect\ColorBasics-WPF\obj\Debug\MainWindow.g.cs
+C:\Users\Róbert\Documents\Kinect\ColorBasics-WPF\obj\Debug\App.g.cs
+C:\Users\Róbert\Documents\Kinect\ColorBasics-WPF\obj\Debug\KinectPOC.csproj.GenerateResource.Cache
+C:\Users\Róbert\Documents\Kinect\ColorBasics-WPF\bin\AnyCPU\Debug\Microsoft.Kinect.dll
+C:\Users\Róbert\Documents\Kinect\ColorBasics-WPF\bin\AnyCPU\Debug\Microsoft.Kinect.xml
+C:\Users\Róbert\Documents\Kinect\ColorBasics-WPF\obj\Debug\KinectPOC.Properties.Resources.resources
+C:\Users\Róbert\Documents\Kinect\ColorBasics-WPF\bin\AnyCPU\Debug\Robert Nemeth.exe.config
+C:\Users\Róbert\Documents\Kinect\ColorBasics-WPF\bin\AnyCPU\Debug\Robert Nemeth.exe
+C:\Users\Róbert\Documents\Kinect\ColorBasics-WPF\bin\AnyCPU\Debug\Robert Nemeth.pdb
+C:\Users\Róbert\Documents\Kinect\ColorBasics-WPF\obj\Debug\Robert Nemeth_MarkupCompile.cache
+C:\Users\Róbert\Documents\Kinect\ColorBasics-WPF\obj\Debug\Robert Nemeth.g.resources
+C:\Users\Róbert\Documents\Kinect\ColorBasics-WPF\obj\Debug\Robert Nemeth.exe
+C:\Users\Róbert\Documents\Kinect\ColorBasics-WPF\obj\Debug\Robert Nemeth.pdb
+C:\Users\Róbert\Documents\Kinect\KinectPOC\bin\AnyCPU\Debug\Robert Nemeth.exe.config
+C:\Users\Róbert\Documents\Kinect\KinectPOC\obj\Debug\Robert Nemeth.exe
+C:\Users\Róbert\Documents\Kinect\KinectPOC\obj\Debug\Robert Nemeth.pdb
