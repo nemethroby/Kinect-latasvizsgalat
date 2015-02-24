@@ -9,6 +9,9 @@
     using System.Windows.Media;
     using System.Windows.Media.Imaging;
     using Microsoft.Kinect;
+    using System.Windows.Controls;
+    using Microsoft.Kinect.Wpf.Controls;
+
 
     //a MainWindow logikája
     public partial class MainWindow : Window, INotifyPropertyChanged
@@ -57,6 +60,11 @@
 
             // komponensek inicializálása az ablak irányításán belül (ez majd bővülni fog)
             this.InitializeComponent();
+
+            KinectRegion.SetKinectRegion(this, kinectRegion);
+
+            App app = ((App)Application.Current);
+            app.KinectRegion = kinectRegion;
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

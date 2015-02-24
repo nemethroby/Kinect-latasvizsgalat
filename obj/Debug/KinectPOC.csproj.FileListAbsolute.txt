@@ -15,3 +15,37 @@ C:\Users\Róbert\Documents\Kinect\ColorBasics-WPF\obj\Debug\Robert Nemeth.pdb
 C:\Users\Róbert\Documents\Kinect\KinectPOC\bin\AnyCPU\Debug\Robert Nemeth.exe.config
 C:\Users\Róbert\Documents\Kinect\KinectPOC\obj\Debug\Robert Nemeth.exe
 C:\Users\Róbert\Documents\Kinect\KinectPOC\obj\Debug\Robert Nemeth.pdb
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Robert Nemeth.exe.config
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\Robert Nemeth.exe
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\Robert Nemeth.pdb
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Robert Nemeth.exe
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Robert Nemeth.pdb
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Microsoft.Kinect.dll
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Microsoft.Kinect.xml
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\MainWindow.baml
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\MainWindow.g.cs
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\App.g.cs
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\Robert Nemeth_MarkupCompile.cache
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\Robert Nemeth.g.resources
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\KinectPOC.Properties.Resources.resources
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\KinectPOC.csproj.GenerateResource.Cache
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\KinectPOC.csprojResolveAssemblyReference.cache
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Robert Nemeth.exe.config
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\Robert Nemeth.exe
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\Robert Nemeth.pdb
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Robert Nemeth.exe
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Robert Nemeth.pdb
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Microsoft.Kinect.dll
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Microsoft.Kinect.Wpf.Controls.dll
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Microsoft.Kinect.xml
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Microsoft.Kinect.Wpf.Controls.xml
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\KinectPOC.csprojResolveAssemblyReference.cache
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\MainWindow.baml
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\MainWindow.g.cs
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\App.g.cs
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\Robert Nemeth_MarkupCompile.cache
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\Robert Nemeth.g.resources
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\KinectPOC.Properties.Resources.resources
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\KinectPOC.csproj.GenerateResource.Cache
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\Common\StandardStyles.baml
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\HandPointers\HandPointerStyles.baml

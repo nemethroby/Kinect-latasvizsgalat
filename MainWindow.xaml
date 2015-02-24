@@ -1,21 +1,23 @@
 ﻿    <Window x:Class="KinectPOC.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:k="http://schemas.microsoft.com/kinect/2014"
         Title="KinectPOC" 
         Height="700" Width="1200"
         Closing="MainWindow_Closing"
         MinWidth="500"
         MinHeight="700"
         FontFamily="Segoe UI"
-        WindowState="Maximized" Icon="Images/icon.png"> 
-  
-  <Grid Margin="1010,544,10,0">
-    <Grid.RowDefinitions>
-      <RowDefinition Height="Auto" />
-      <RowDefinition Height="*" />
-      <RowDefinition Height="Auto" />
-      <RowDefinition Height="Auto" />
-    </Grid.RowDefinitions>
+        WindowState="Maximized" Icon="Images/icon.png">
+
+    <k:KinectRegion x:Name="kinectRegion">
+        <Grid Margin="1010,544,10,0">
+             <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+             </Grid.RowDefinitions>
     
    
     <Viewbox Grid.Row="1" HorizontalAlignment="Center">
@@ -27,4 +29,5 @@
         <StatusBarItem Content="{Binding StatusText}" />
     </StatusBar>
   </Grid>
+  </k:KinectRegion>
 </Window>
