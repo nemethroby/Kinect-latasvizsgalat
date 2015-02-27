@@ -4,7 +4,7 @@
 winexe
 C#
 .cs
-C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\x86\Debug\
 KinectPOC
 none
 false
@@ -12,8 +12,8 @@ DEBUG;TRACE
 C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\App.xaml
 3-1324343976
 
-12-945229579
-15-1589449402
+102138779321
+141369758715
 Common\StandardStyles.xaml;HandPointers\HandPointerStyles.xaml;MainWindow.xaml;
 
 False

@@ -160,5 +160,23 @@
             this.StatusText = this.kinectSensor.IsAvailable ? Properties.Resources.RunningStatusText
                                                             : Properties.Resources.SensorNotAvailableStatusText;
         }
+
+        private void Image_DragEnter(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.Text))
+                e.Effects = DragDropEffects.Copy;
+            else
+                e.Effects = DragDropEffects.None;
+        }
+
+        private void Image_DragOver(object sender, DragEventArgs e)
+        {
+
+        }
+
+        private void Image_DragLeave(object sender, DragEventArgs e)
+        {
+
+        }
     }
 }

@@ -1,0 +1,19 @@
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\bin\x86\Debug\Robert Nemeth.exe.config
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\bin\x86\Debug\Robert Nemeth.exe
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\bin\x86\Debug\Robert Nemeth.pdb
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\bin\x86\Debug\Microsoft.Kinect.Wpf.Controls.dll
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\bin\x86\Debug\Microsoft.Kinect.Wpf.Controls.xml
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\x86\Debug\KinectPOC.csprojResolveAssemblyReference.cache
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\x86\Debug\Common\StandardStyles.baml
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\x86\Debug\HandPointers\HandPointerStyles.baml
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\x86\Debug\MainWindow.baml
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\x86\Debug\App.g.cs
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\x86\Debug\Robert Nemeth_MarkupCompile.cache
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\x86\Debug\Robert Nemeth.g.resources
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\x86\Debug\KinectPOC.Properties.Resources.resources
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\x86\Debug\KinectPOC.csproj.GenerateResource.Cache
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\x86\Debug\Robert Nemeth.exe
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\x86\Debug\Robert Nemeth.pdb
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\x86\Debug\Robert Nemeth_MarkupCompile.lref
