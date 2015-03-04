@@ -1,4 +1,4 @@
-﻿namespace KinectPOC
+﻿namespace KinectGame
 {
     using System;
     using System.Collections.Generic;

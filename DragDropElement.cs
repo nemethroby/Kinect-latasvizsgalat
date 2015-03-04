@@ -2,7 +2,7 @@
 using Microsoft.Kinect.Toolkit.Input;
 using Microsoft.Kinect.Wpf.Controls;
 
-namespace KinectPOC
+namespace KinectGame
 {
     public class DragDropElement : Decorator, IKinectControl
     {

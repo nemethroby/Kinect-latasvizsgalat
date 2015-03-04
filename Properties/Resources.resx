@@ -118,12 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="NoSensorStatusText" xml:space="preserve">
-    <value>Nem található Kinect!</value>
+    <value>No Kinect sensor</value>
   </data>
   <data name="RunningStatusText" xml:space="preserve">
-    <value>Fut</value>
+    <value>Run</value>
+  </data>
+  <data name="SelectedMessage" xml:space="preserve">
+    <value>You selected: {0}</value>
   </data>
   <data name="SensorNotAvailableStatusText" xml:space="preserve">
-    <value>Nincs elérhető Kinect!</value>
+    <value>Kinect sensor is not avaible</value>
   </data>
 </root>

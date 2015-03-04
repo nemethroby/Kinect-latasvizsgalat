@@ -1,0 +1,26 @@
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Robert Nemeth.exe.config
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Robert Nemeth.exe
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Robert Nemeth.pdb
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Microsoft.Kinect.dll
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Microsoft.Kinect.Wpf.Controls.dll
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Microsoft.Kinect.xml
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Microsoft.Kinect.Wpf.Controls.xml
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\Common\StandardStyles.baml
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\HandPointers\HandPointerStyles.baml
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\SelectionDisplay.baml
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\App.baml
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\MainWindow.g.cs
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\SelectionDisplay.g.cs
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\App.g.cs
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\Robert Nemeth_MarkupCompile.cache
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\Robert Nemeth_MarkupCompile.lref
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\MainWindow.baml
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\Robert Nemeth.g.resources
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\KinectGame.Properties.Resources.resources
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\KinectGame.csproj.GenerateResource.Cache
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\Robert Nemeth.exe
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\Robert Nemeth.pdb
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\KinectGame.csprojResolveAssemblyReference.cache
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\Pages\Game.g.cs
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\Pages\Game.baml

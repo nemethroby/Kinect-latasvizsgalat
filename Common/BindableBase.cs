@@ -1,4 +1,4 @@
-﻿namespace KinectPOC
+﻿namespace KinectGame.Common
 {
     using System;
     using System.ComponentModel;

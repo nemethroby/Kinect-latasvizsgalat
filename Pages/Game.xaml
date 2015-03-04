@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="KinectGame.Game"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:KinectGame="clr-namespace:KinectGame"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:k="http://schemas.microsoft.com/kinect/2014"
+      mc:Ignorable="d" 
+      d:DesignHeight="526" d:DesignWidth="1272"
+	  >
+
+    <Grid Margin="0,10,0,172" >
+        <Grid.Background>
+            <ImageBrush ImageSource="/Robert Nemeth;component/Images/colored_carpet.png" Stretch="Uniform"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Canvas HorizontalAlignment="Left" Height="246" Margin="228,197,0,-431" VerticalAlignment="Top" Width="260" RenderTransformOrigin="0.381,0.524">
+            <KinectGame:DragDropElement>
+                <Image Height="83" Canvas.Left="10" Canvas.Top="10" Width="107" Source="/Robert Nemeth;component/Images/colored_police.png" Cursor="Hand" ScrollViewer.VerticalScrollBarVisibility="Disabled" UseLayoutRounding="False"/>
+            </KinectGame:DragDropElement>
+            
+        </Canvas>
+
+
+
+    </Grid>
+</UserControl>

@@ -5,7 +5,7 @@ using Microsoft.Kinect.Input;
 using Microsoft.Kinect.Toolkit.Input;
 using Microsoft.Kinect.Wpf.Controls;
 
-namespace KinectPOC
+namespace KinectGame
 {
     public class DragDropElementController : IKinectManipulatableController
     {

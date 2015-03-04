@@ -1,4 +1,4 @@
-﻿namespace KinectPOC
+﻿namespace KinectGame
 {
     using System;
     using System.ComponentModel;
@@ -11,6 +11,7 @@
     using Microsoft.Kinect;
     using System.Windows.Controls;
     using Microsoft.Kinect.Wpf.Controls;
+    using KinectGame.DataModel;
 
 
     //a MainWindow logikája
@@ -65,6 +66,10 @@
 
             App app = ((App)Application.Current);
             app.KinectRegion = kinectRegion;
+
+            //// Add in display content
+            var sampleDataSource = SampleDataSource.GetGroup("Group-1");
+            this.itemsControl.ItemsSource = sampleDataSource;
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -161,22 +166,46 @@
                                                             : Properties.Resources.SensorNotAvailableStatusText;
         }
 
-        private void Image_DragEnter(object sender, DragEventArgs e)
+      
+
+        private void ButtonClick(object sender, RoutedEventArgs e)
         {
-            if (e.Data.GetDataPresent(DataFormats.Text))
-                e.Effects = DragDropEffects.Copy;
+            var button = (Button)e.OriginalSource;
+            SampleDataItem sampleDataItem = button.DataContext as SampleDataItem;
+
+            if (sampleDataItem != null && sampleDataItem.NavigationPage != null)
+            {
+                backButton.Visibility = System.Windows.Visibility.Visible;
+                navigationRegion.Content = Activator.CreateInstance(sampleDataItem.NavigationPage);
+            }
             else
-                e.Effects = DragDropEffects.None;
+            {
+                var selectionDisplay = new SelectionDisplay(button.Content as string);
+                this.kinectRegionGrid.Children.Add(selectionDisplay);
+
+                // Selection dialog covers the entire interact-able area, so the current press interaction
+                // should be completed. Otherwise hover capture will allow the button to be clicked again within
+                // the same interaction (even whilst no longer visible).
+                selectionDisplay.Focus();
+
+                // Since the selection dialog covers the entire interact-able area, we should also complete
+                // the current interaction of all other pointers.  This prevents other users interacting with elements
+                // that are no longer visible.
+                this.kinectRegion.InputPointerManager.CompleteGestures();
+
+                e.Handled = true;
+            }
         }
 
-        private void Image_DragOver(object sender, DragEventArgs e)
+        /// <summary>
+        /// Handle the back button click.
+        /// </summary>
+        /// <param name="sender">Event sender</param>
+        /// <param name="e">Event arguments</param>
+        private void GoBack(object sender, RoutedEventArgs e)
         {
-
-        }
-
-        private void Image_DragLeave(object sender, DragEventArgs e)
-        {
-
+            backButton.Visibility = System.Windows.Visibility.Hidden;
+            navigationRegion.Content = this.kinectRegionGrid;
         }
     }
 }

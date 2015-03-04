@@ -1,4 +1,4 @@
-﻿namespace KinectPOC
+﻿namespace KinectGame
 {
     using System;
     using System.Windows;
@@ -7,5 +7,6 @@
     public partial class App : Application
     {
         internal KinectRegion KinectRegion { get; set; }
+
     }
 }

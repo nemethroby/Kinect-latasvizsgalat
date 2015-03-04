@@ -46,7 +46,7 @@
     <!-- Base Text Style -->
     <Style x:Name="BaseTextBlockStyle" TargetType="TextBlock">
         <Setter Property="FontFamily" Value="Segoe UI" />
-        <Setter Property="FontSize" Value="24" />
+        <Setter Property="FontSize" Value="12" />
         <Setter Property="VerticalAlignment" Value="Center" />
     </Style>
 
@@ -54,7 +54,7 @@
     <SolidColorBrush x:Key="ListViewItemOverlayBackgroundThemeBrush" Color="DarkGray" />
     <SolidColorBrush x:Key="ListViewItemOverlayForegroundThemeBrush" Color="Yellow" />
     <SolidColorBrush x:Key="ListViewItemOverlaySecondaryForegroundThemeBrush" Color="Aqua"/>
-    
+
     <Style x:Key="KinectTileButton" TargetType="Button">
         <Setter Property="Template">
             <Setter.Value>
@@ -85,20 +85,20 @@
         </Setter>
     </Style>
 
-    <DataTemplate x:Key="Kinect250x250ItemTemplate">
+    <DataTemplate x:Key="Kinect800x500ItemTemplate">
         <Button Margin="3" Style="{StaticResource KinectTileButton}">
-            <Grid HorizontalAlignment="Left" Width="250" Height="250">
+            <Grid HorizontalAlignment="Left" Width="800" Height="500">
                 <Border Background="{StaticResource ListViewItemPlaceholderBackgroundThemeBrush}">
                     <Image Source="{Binding Image}" Stretch="UniformToFill" AutomationProperties.Name="{Binding Title}"/>
                 </Border>
-                <StackPanel VerticalAlignment="Bottom" Background="{StaticResource ListViewItemOverlayBackgroundThemeBrush}">
-                    <TextBlock Text="{Binding Title}" Foreground="{StaticResource ListViewItemOverlayForegroundThemeBrush}" Style="{StaticResource TitleTextStyle}" Height="60" Margin="15,0,15,0"/>
-                    <TextBlock Text="{Binding Subtitle}" Foreground="{StaticResource ListViewItemOverlaySecondaryForegroundThemeBrush}" Style="{StaticResource CaptionTextStyle}" TextWrapping="NoWrap" Margin="15,0,15,10"/>
+                <StackPanel VerticalAlignment="Bottom" Background="Black" Opacity="0.7">
+                    <TextBlock Text="{Binding Title}" Foreground="White" Style="{StaticResource TitleTextStyle}" Height="50" Margin="15,0,15,0"/>
+                    <TextBlock Text="{Binding Subtitle}" Foreground="LightGray" Style="{StaticResource CaptionTextStyle}" TextWrapping="NoWrap" Margin="15,0,15,10"/>
                 </StackPanel>
             </Grid>
         </Button>
     </DataTemplate>
-    
+
     <!-- Button Text Style -->
     <Style x:Key="ButtonTextStyle" TargetType="TextBlock">
         <Setter Property="FontFamily" Value="Segoe UI" />
@@ -450,7 +450,7 @@
                                 Height="14"
                                 VerticalAlignment="Top"
                                 RenderTransformOrigin="0.5,0">
-                                <Rectangle.RenderTransform>                                    
+                                <Rectangle.RenderTransform>
                                     <ScaleTransform ScaleY="0" />
                                 </Rectangle.RenderTransform>
                             </Rectangle>
@@ -1152,8 +1152,8 @@
         <Setter Property="MinHeight" Value="48"/>
         <Setter Property="Padding" Value="36,36,36,36" />
         <Setter Property="k:KinectRegion.KinectPressInset" Value="36,36,36,36" />
-        <Setter Property="VerticalAlignment" Value="Bottom"/>        
-        <Setter Property="FontWeight" Value="Normal"/>        
+        <Setter Property="VerticalAlignment" Value="Bottom"/>
+        <Setter Property="FontWeight" Value="Normal"/>
         <Setter Property="AutomationProperties.AutomationId" Value="BackButton"/>
         <Setter Property="AutomationProperties.Name" Value="Back"/>
         <Setter Property="AutomationProperties.ItemType" Value="Navigation Button"/>
@@ -1248,5 +1248,5 @@
                 </ControlTemplate>
             </Setter.Value>
         </Setter>
-    </Style>    
+    </Style>
 </ResourceDictionary>

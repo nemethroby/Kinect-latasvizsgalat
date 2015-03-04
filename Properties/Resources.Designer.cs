@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace KinectPOC.Properties {
+namespace KinectGame.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace KinectPOC.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("KinectPOC.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("KinectGame.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,7 +61,7 @@ namespace KinectPOC.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Nem található Kinect!.
+        ///   Looks up a localized string similar to No Kinect sensor.
         /// </summary>
         internal static string NoSensorStatusText {
             get {
@@ -70,7 +70,7 @@ namespace KinectPOC.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Fut.
+        ///   Looks up a localized string similar to Run.
         /// </summary>
         internal static string RunningStatusText {
             get {
@@ -79,7 +79,16 @@ namespace KinectPOC.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Nincs elérhető Kinect!.
+        ///   Looks up a localized string similar to You selected: {0}.
+        /// </summary>
+        internal static string SelectedMessage {
+            get {
+                return ResourceManager.GetString("SelectedMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Kinect sensor is not avaible.
         /// </summary>
         internal static string SensorNotAvailableStatusText {
             get {

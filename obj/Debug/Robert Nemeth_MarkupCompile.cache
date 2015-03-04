@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\
-KinectPOC
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\
+KinectGame
 none
 false
 DEBUG;TRACE
-C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\App.xaml
-3-1324343976
+C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\App.xaml
+5-303581156
 
-8357850783
+13436560389
 141369758715
-Common\StandardStyles.xaml;HandPointers\HandPointerStyles.xaml;MainWindow.xaml;
+Common\StandardStyles.xaml;HandPointers\HandPointerStyles.xaml;MainWindow.xaml;Pages\Game.xaml;SelectionDisplay.xaml;
 
 False
 
