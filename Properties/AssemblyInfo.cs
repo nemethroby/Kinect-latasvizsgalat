@@ -14,5 +14,5 @@ using System.Windows;
 [assembly: ThemeInfo(
     ResourceDictionaryLocation.None,
     ResourceDictionaryLocation.SourceAssembly)]
-[assembly: NeutralResourcesLanguage("hu")]
+[assembly: NeutralResourcesLanguage("hu-HU")]
 [assembly: CLSCompliant(true)]

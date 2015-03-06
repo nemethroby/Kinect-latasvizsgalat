@@ -175,10 +175,8 @@
 
             if (sampleDataItem != null && sampleDataItem.NavigationPage != null)
             {
-                backButton.Visibility = System.Windows.Visibility.Visible;  
-                    navigationRegion.Content = Activator.CreateInstance(sampleDataItem.NavigationPage);
-               
-                
+                backButton.Visibility = System.Windows.Visibility.Visible;
+                navigationRegion.Content = Activator.CreateInstance(sampleDataItem.NavigationPage);
             }
             else
             {
@@ -209,10 +207,5 @@
             backButton.Visibility = System.Windows.Visibility.Hidden;
             navigationRegion.Content = this.kinectRegionGrid;
         }
-
-
-
-
-
     }
 }
