@@ -1,4 +1,4 @@
-﻿Robert Nemeth
+﻿KincetGame
 
 
 winexe
@@ -16,5 +16,5 @@ D:\workspace\Visual Studio 2013\Projects\Kinect-latasvizsgalat\App.xaml
 141369758715
 Common\StandardStyles.xaml;HandPointers\HandPointerStyles.xaml;MainWindow.xaml;Pages\Game.xaml;SelectionDisplay.xaml;
 
-True
+False
 

@@ -83,7 +83,7 @@ namespace KinectGame {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Robert Nemeth;component/selectiondisplay.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/KincetGame;component/selectiondisplay.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\SelectionDisplay.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

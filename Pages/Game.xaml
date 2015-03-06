@@ -11,14 +11,14 @@
 
     <Grid Margin="0,10,0,172" >
         <Grid.Background>
-            <ImageBrush ImageSource="/Robert Nemeth;component/Images/colored_carpet.png" Stretch="Uniform"/>
+            <ImageBrush ImageSource="/Images/colored_carpet.png" Stretch="Uniform"/>
         </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <Canvas HorizontalAlignment="Left" Height="246" Margin="228,197,0,-431" VerticalAlignment="Top" Width="260" RenderTransformOrigin="0.381,0.524">
+        <Canvas HorizontalAlignment="Left" Height="246" Margin="228,197,0,-431" VerticalAlignment="Top" Width="260" RenderTransformOrigin="0.381,0.524" Name="DesigningCanvas">
             <KinectGame:DragDropElement>
-                <Image Height="83" Canvas.Left="10" Canvas.Top="10" Width="107" Source="/Robert Nemeth;component/Images/colored_police.png" Cursor="Hand" ScrollViewer.VerticalScrollBarVisibility="Disabled" UseLayoutRounding="False"/>
+                <Image Height="83" Canvas.Left="10" Canvas.Top="10" Width="107" Source="/Images/colored_police.png" Cursor="Hand" ScrollViewer.VerticalScrollBarVisibility="Disabled" UseLayoutRounding="False"/>
             </KinectGame:DragDropElement>
             
         </Canvas>
