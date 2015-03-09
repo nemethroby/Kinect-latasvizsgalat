@@ -31,55 +31,7 @@ using System.Windows.Shapes;
 
         }
 
-
-        private Point BasePoint = new Point(0.0, 0.0);
-        private bool moving = false;
-        Point _previous = new Point();
-
-        
-
-
-        private void Canvas_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            var element = sender as FrameworkElement;
-            _previous = e.GetPosition(element);
-            element.CaptureMouse();
-            moving = true;
-            e.Handled = true;
-        }
-
-        private void Canvas_MouseMove(object sender, MouseEventArgs e)
-        {
-            if (moving)
-            {
-                var element = sender as FrameworkElement;
-                var currentPoint = e.GetPosition(element);
-
-                (element as FrameworkElement).SetValue(Canvas.LeftProperty,
-              e.GetPosition((element as FrameworkElement).Parent as FrameworkElement).X - _previous.X);
-
-                (element as FrameworkElement).SetValue(Canvas.TopProperty,
-                     e.GetPosition((element as FrameworkElement).Parent as FrameworkElement).Y - _previous.Y);
-    
-            }
-        }
-
-        private void Canvas_MouseUp(object sender, MouseButtonEventArgs e)
-        {
-            if (moving)
-            {
-                var element = sender as FrameworkElement;
-                element.ReleaseMouseCapture();
-                moving = false;
-                e.Handled = true;
-            }
-        }
-        
-
-       
-
-       
-        
+   
         
     }
 
