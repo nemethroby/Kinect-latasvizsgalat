@@ -4,18 +4,31 @@ using System.Windows.Controls;
 using Microsoft.Kinect.Input;
 using Microsoft.Kinect.Toolkit.Input;
 using Microsoft.Kinect.Wpf.Controls;
+using System.Collections.Generic;
+using System.Windows.Media;
+using System.Windows.Shapes;
+using System.Windows.Input;
 
 namespace KinectGame
 {
     public class DragDropElementController : IKinectManipulatableController
     {
+        //Kinecttel való mozagtáshoz:
         private ManipulatableModel _inputModel;
         private KinectRegion _kinectRegion;
         private DragDropElement _dragDropElement;
         private bool _disposedValue;
 
+
+        private Point BasePoint = new Point(0.0, 0.0);
+
+        
+
         public DragDropElementController(IInputModel inputModel, KinectRegion kinectRegion)
         {
+
+
+
             _inputModel = inputModel as ManipulatableModel;
             _kinectRegion = kinectRegion;
             _dragDropElement = _inputModel.Element as DragDropElement;
@@ -23,7 +36,14 @@ namespace KinectGame
             _inputModel.ManipulationStarted += OnManipulationStarted;
             _inputModel.ManipulationUpdated += OnManipulationUpdated;
             _inputModel.ManipulationCompleted += OnManipulationCompleted;
+
         }
+
+
+        
+       
+
+
 
         private void OnManipulationCompleted(object sender,
             KinectManipulationCompletedEventArgs kinectManipulationCompletedEventArgs)
@@ -43,8 +63,8 @@ namespace KinectGame
                 if (double.IsNaN(x)) x = 0;
 
                 // Delta value is between 0.0 and 1.0 so they need to be scaled within the kinect region.
-                var yD = d.Y*_kinectRegion.ActualHeight;
-                var xD = d.X*_kinectRegion.ActualWidth;
+                var yD = d.Y * _kinectRegion.ActualHeight;
+                var xD = d.X * _kinectRegion.ActualWidth;
 
                 Canvas.SetTop(_dragDropElement, y + yD);
                 Canvas.SetLeft(_dragDropElement, x + xD);
@@ -53,7 +73,6 @@ namespace KinectGame
 
         private void OnManipulationStarted(object sender, KinectManipulationStartedEventArgs e)
         {
-
         }
 
         ManipulatableModel IKinectManipulatableController.ManipulatableInputModel
@@ -86,5 +105,7 @@ namespace KinectGame
         {
             Dispose(true);
         }
+
+        
     }
 }

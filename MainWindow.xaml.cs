@@ -176,9 +176,7 @@
             if (sampleDataItem != null && sampleDataItem.NavigationPage != null)
             {
                 backButton.Visibility = System.Windows.Visibility.Visible;  
-                    navigationRegion.Content = Activator.CreateInstance(sampleDataItem.NavigationPage);
-               
-                
+                navigationRegion.Content = Activator.CreateInstance(sampleDataItem.NavigationPage);
             }
             else
             {

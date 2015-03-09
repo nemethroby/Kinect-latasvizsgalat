@@ -16,11 +16,11 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <Canvas HorizontalAlignment="Left" Height="246" Margin="228,197,0,-431" VerticalAlignment="Top" Width="260" RenderTransformOrigin="0.381,0.524" Name="DesigningCanvas">
-            <KinectGame:DragDropElement>
-                <Image Height="83" Canvas.Left="10" Canvas.Top="10" Width="107" Source="/Images/colored_police.png" Cursor="Hand" ScrollViewer.VerticalScrollBarVisibility="Disabled" UseLayoutRounding="False"/>
+        <Canvas HorizontalAlignment="Left" Height="197" Margin="197,98,0,-281" VerticalAlignment="Top" Width="278" RenderTransformOrigin="0.381,0.524" >
+            <KinectGame:DragDropElement MouseDown="Canvas_MouseDown" MouseMove="Canvas_MouseMove" MouseUp="Canvas_MouseUp">
+                <Image Height="83" Canvas.Left="10" Canvas.Top="10" Width="107" Source="/Images/colored_police.png" Cursor="Hand" ScrollViewer.VerticalScrollBarVisibility="Disabled" UseLayoutRounding="False" />
             </KinectGame:DragDropElement>
-            
+
         </Canvas>
 
 
