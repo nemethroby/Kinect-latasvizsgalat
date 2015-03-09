@@ -76,3 +76,4 @@ C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\KincetGame.g.r
 C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\KinectGame.Properties.Resources.resources
 C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\KinectGame.csproj.GenerateResource.Cache
 C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\KinectGame.csprojResolveAssemblyReference.cache
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\Common\ScrollbarStyle.baml
