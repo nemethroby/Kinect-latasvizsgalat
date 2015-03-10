@@ -11,7 +11,10 @@
         Closing="MainWindow_Closing"
         
         FontFamily="Segoe UI"
-        WindowState="Maximized" Icon="Images/icon.png" Background="#FF00AB00">
+        WindowState="Maximized" Icon="Images/icon.png">
+    <Window.Background>
+        <ImageBrush ImageSource="Images/menu.png"/>
+    </Window.Background>
 
     <k:KinectRegion x:Name="kinectRegion">
         <Grid>

@@ -1,64 +1,12 @@
-C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Microsoft.Kinect.dll
-C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Microsoft.Kinect.Wpf.Controls.dll
-C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Microsoft.Kinect.xml
-C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Microsoft.Kinect.Wpf.Controls.xml
-C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\Common\StandardStyles.baml
-C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\HandPointers\HandPointerStyles.baml
-C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\SelectionDisplay.baml
-C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\App.baml
-C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\MainWindow.g.cs
-C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\SelectionDisplay.g.cs
-C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\App.g.cs
-C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\MainWindow.baml
-C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\KinectGame.Properties.Resources.resources
-C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\KinectGame.csproj.GenerateResource.Cache
-C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\KinectGame.csprojResolveAssemblyReference.cache
-C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\Pages\Game.g.cs
-C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\GeneratedInternalTypeHelper.g.cs
-C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\Pages\Game.baml
-D:\workspace\Visual Studio 2013\Projects\Kinect-latasvizsgalat\bin\AnyCPU\Debug\KincetGame.exe.config
-D:\workspace\Visual Studio 2013\Projects\Kinect-latasvizsgalat\bin\AnyCPU\Debug\KincetGame.exe
-D:\workspace\Visual Studio 2013\Projects\Kinect-latasvizsgalat\bin\AnyCPU\Debug\KincetGame.pdb
-D:\workspace\Visual Studio 2013\Projects\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Microsoft.Kinect.dll
-D:\workspace\Visual Studio 2013\Projects\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Microsoft.Kinect.Wpf.Controls.dll
-D:\workspace\Visual Studio 2013\Projects\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Microsoft.Kinect.xml
-D:\workspace\Visual Studio 2013\Projects\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Microsoft.Kinect.Wpf.Controls.xml
-D:\workspace\Visual Studio 2013\Projects\Kinect-latasvizsgalat\obj\Debug\KinectGame.csprojResolveAssemblyReference.cache
-D:\workspace\Visual Studio 2013\Projects\Kinect-latasvizsgalat\obj\Debug\Common\StandardStyles.baml
-D:\workspace\Visual Studio 2013\Projects\Kinect-latasvizsgalat\obj\Debug\HandPointers\HandPointerStyles.baml
-D:\workspace\Visual Studio 2013\Projects\Kinect-latasvizsgalat\obj\Debug\SelectionDisplay.baml
-D:\workspace\Visual Studio 2013\Projects\Kinect-latasvizsgalat\obj\Debug\App.baml
-D:\workspace\Visual Studio 2013\Projects\Kinect-latasvizsgalat\obj\Debug\MainWindow.g.cs
-D:\workspace\Visual Studio 2013\Projects\Kinect-latasvizsgalat\obj\Debug\Pages\Game.g.cs
-D:\workspace\Visual Studio 2013\Projects\Kinect-latasvizsgalat\obj\Debug\SelectionDisplay.g.cs
-D:\workspace\Visual Studio 2013\Projects\Kinect-latasvizsgalat\obj\Debug\App.g.cs
-D:\workspace\Visual Studio 2013\Projects\Kinect-latasvizsgalat\obj\Debug\GeneratedInternalTypeHelper.g.cs
-D:\workspace\Visual Studio 2013\Projects\Kinect-latasvizsgalat\obj\Debug\KincetGame_MarkupCompile.cache
-D:\workspace\Visual Studio 2013\Projects\Kinect-latasvizsgalat\obj\Debug\KincetGame_MarkupCompile.lref
-D:\workspace\Visual Studio 2013\Projects\Kinect-latasvizsgalat\obj\Debug\MainWindow.baml
-D:\workspace\Visual Studio 2013\Projects\Kinect-latasvizsgalat\obj\Debug\Pages\Game.baml
-D:\workspace\Visual Studio 2013\Projects\Kinect-latasvizsgalat\obj\Debug\KincetGame.g.resources
-D:\workspace\Visual Studio 2013\Projects\Kinect-latasvizsgalat\obj\Debug\KinectGame.Properties.Resources.resources
-D:\workspace\Visual Studio 2013\Projects\Kinect-latasvizsgalat\obj\Debug\KinectGame.csproj.GenerateResource.Cache
-D:\workspace\Visual Studio 2013\Projects\Kinect-latasvizsgalat\obj\Debug\KincetGame.exe
-D:\workspace\Visual Studio 2013\Projects\Kinect-latasvizsgalat\obj\Debug\KincetGame.pdb
-C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\bin\AnyCPU\Debug\KincetGame.exe.config
-C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\KincetGame.exe
-C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\KincetGame.pdb
-C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\bin\AnyCPU\Debug\KincetGame.exe
-C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\bin\AnyCPU\Debug\KincetGame.pdb
-C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\KincetGame_MarkupCompile.cache
-C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\KincetGame_MarkupCompile.lref
-C:\Users\Róbert\Documents\GitHub\Kinect-latasvizsgalat\obj\Debug\KincetGame.g.resources
 C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\bin\AnyCPU\Debug\KincetGame.exe.config
-C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\KincetGame.exe
-C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\KincetGame.pdb
 C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\bin\AnyCPU\Debug\KincetGame.exe
 C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\bin\AnyCPU\Debug\KincetGame.pdb
 C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Microsoft.Kinect.dll
 C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Microsoft.Kinect.Wpf.Controls.dll
 C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Microsoft.Kinect.xml
 C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Microsoft.Kinect.Wpf.Controls.xml
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\KinectGame.csprojResolveAssemblyReference.cache
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\Common\ScrollbarStyle.baml
 C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\Common\StandardStyles.baml
 C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\HandPointers\HandPointerStyles.baml
 C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\SelectionDisplay.baml
@@ -75,4 +23,5 @@ C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\Pages\Game.bam
 C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\KincetGame.g.resources
 C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\KinectGame.Properties.Resources.resources
 C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\KinectGame.csproj.GenerateResource.Cache
-C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\KinectGame.csprojResolveAssemblyReference.cache
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\KincetGame.exe
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\KincetGame.pdb
