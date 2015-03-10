@@ -11,12 +11,20 @@
 
     <Grid VerticalAlignment="Top" Height="570" >
         <Grid.Background>
+<<<<<<< HEAD
             <ImageBrush ImageSource="/KincetGame;component/Images/palya.png"/>
+=======
+            <ImageBrush ImageSource="/KincetGame;component/Images/terke_javitott_szines.png" Stretch="Uniform"/>
+>>>>>>> origin/master
         </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
+<<<<<<< HEAD
         <Canvas HorizontalAlignment="Left" Height="93" Margin="10,144,0,-217" VerticalAlignment="Top" Width="129" RenderTransformOrigin="0.381,0.524" >
+=======
+        <Canvas HorizontalAlignment="Left" Height="197" Margin="197,127,0,-309" VerticalAlignment="Top" Width="278" RenderTransformOrigin="0.381,0.524" >
+>>>>>>> origin/master
             <KinectGame:DragDropElement >
                 <Image Height="83" Canvas.Left="10" Canvas.Top="10" Width="107" Source="/KincetGame;component/Images/Autó.png" Cursor="Hand" ScrollViewer.VerticalScrollBarVisibility="Disabled" UseLayoutRounding="False" />
             </KinectGame:DragDropElement>

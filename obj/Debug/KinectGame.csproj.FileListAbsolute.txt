@@ -23,5 +23,10 @@ C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\Pages\Game.bam
 C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\KincetGame.g.resources
 C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\KinectGame.Properties.Resources.resources
 C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\KinectGame.csproj.GenerateResource.Cache
+<<<<<<< HEAD
 C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\KincetGame.exe
 C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\KincetGame.pdb
+=======
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\KinectGame.csprojResolveAssemblyReference.cache
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\Common\ScrollbarStyle.baml
+>>>>>>> origin/master

@@ -220,6 +220,7 @@
     <Resource Include="Images\colored_police.png" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Resource Include="Images\Autó.png" />
   </ItemGroup>
   <ItemGroup>
@@ -227,6 +228,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\menu.png" />
+=======
+    <Resource Include="Images\terke_javitott_szines.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Autó.png" />
+>>>>>>> origin/master
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
