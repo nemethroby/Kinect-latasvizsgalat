@@ -67,12 +67,13 @@ namespace KinectGame.DataModel
             group1.Items.Add(
                     new SampleDataItem(
                         "Group-1-Item-2",
-                        "Board",
-                        string.Empty,
-                        SampleDataSource.menuitem,
-                        "CheckBox and RadioButton controls",
+                        "Profiles",
+                        "Change your own symbol",
+                         new Uri(@"\Images\kerdojeles.png", UriKind.Relative),
+                        "Several types of buttons with custom styles",
                         itemContent,
-                        group1));
+                        group1,
+                        typeof(Board)));
             group1.Items.Add(
                     new SampleDataItem(
                         "Group-1-Item-5",

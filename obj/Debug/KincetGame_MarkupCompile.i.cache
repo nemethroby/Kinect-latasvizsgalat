@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Róbert\Downloads\Kinect-latasvizsgalat-87ec230442bbc912e39fdbce1d1f8e0c236e9b97\Kinect-latasvizsgalat\obj\Debug\
+E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\obj\Debug\
 KinectGame
 none
 false
 DEBUG;TRACE
-C:\Users\Róbert\Downloads\Kinect-latasvizsgalat-87ec230442bbc912e39fdbce1d1f8e0c236e9b97\Kinect-latasvizsgalat\App.xaml
-6582566578
+E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\App.xaml
+71234156993
 
-17-866519973
+18-2104500612
 141369758715
-Common\ScrollbarStyle.xaml;Common\StandardStyles.xaml;HandPointers\HandPointerStyles.xaml;MainWindow.xaml;Pages\Game.xaml;SelectionDisplay.xaml;
+Common\ScrollbarStyle.xaml;Common\StandardStyles.xaml;HandPointers\HandPointerStyles.xaml;MainWindow.xaml;Pages\Board.xaml;Pages\Game.xaml;SelectionDisplay.xaml;
 
-True
+False
 

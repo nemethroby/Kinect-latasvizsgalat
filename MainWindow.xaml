@@ -23,20 +23,21 @@
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
 
-            <Grid Grid.Row="1" Margin="10,576,10,10">
+            <Grid Grid.Row="1" Margin="10,582,10,4">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto" />
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
-
+    
                 <Button x:Name="backButton" Visibility="Hidden" Grid.Column="0" Style="{StaticResource BackButtonStyle}" Click="GoBack" />
-
+               <Rectangle />
                 <Viewbox Grid.Column="1" Height="140" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,3,0,0" Width="280" IsEnabled="False">
                     <Image Source="{Binding ImageSource}" Stretch="UniformToFill" />
                 </Viewbox>
                 <StatusBar Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="978,120,0,0" VerticalAlignment="Top" Width="140" Background="#FF0E0B0B" Foreground="White" Opacity="0.7">
                     <StatusBarItem Content="{Binding StatusText}" Width="140" FontSize="3" FontWeight="Light" FontFamily="Tahoma"/>
                 </StatusBar>
+             
             </Grid>
 
             <ContentControl Grid.Row="1" x:Name="navigationRegion">

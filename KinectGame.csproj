@@ -104,6 +104,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Pages\Board.xaml.cs">
+      <DependentUpon>Board.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Game.xaml.cs">
       <DependentUpon>Game.xaml</DependentUpon>
     </Compile>
@@ -140,6 +143,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Pages\Board.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Game.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -227,6 +234,33 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\jelek.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\profiles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\esernyo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\sziv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\labda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\harang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\lohere.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\fagyi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\kerdojeles.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
