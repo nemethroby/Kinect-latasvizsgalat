@@ -14,6 +14,19 @@ namespace KinectGame
     using System.Windows.Media;
     using System.Windows.Shapes;
 
+    using System;
+    using System.ComponentModel;
+    using System.Diagnostics;
+    using System.Globalization;
+    using System.IO;
+    using System.Windows;
+    using System.Windows.Media;
+    using System.Windows.Media.Imaging;
+    using Microsoft.Kinect;
+    using System.Windows.Controls;
+    using Microsoft.Kinect.Wpf.Controls;
+    using KinectGame.DataModel;
+
     /// <summary>
     /// Interaction logic for ScrollViewerSample
     /// </summary>
@@ -31,7 +44,16 @@ namespace KinectGame
 
         }
 
+        private void ButtonClick(object sender, RoutedEventArgs e)
+        {
 
+          Proba.Background= new SolidColorBrush(Colors.Red);
+            
+            
+            
+        }
+
+      
 
     }
 
