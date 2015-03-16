@@ -30,7 +30,7 @@
                 </Grid.ColumnDefinitions>
     
                 <Button x:Name="backButton" Visibility="Hidden" Grid.Column="0" Style="{StaticResource BackButtonStyle}" Click="GoBack" />
-                <Button HorizontalAlignment="Left" Margin="153,8,0,0" VerticalAlignment="Top" Width="120" Height="125" RenderTransformOrigin="0.675,0.528" Foreground="{x:Null}" BorderBrush="{x:Null}" ClickMode="Press" IsHitTestVisible="False" Cursor="Hand" Focusable="False" IsTabStop="False" >
+                <Button x:Name="profilButton" HorizontalAlignment="Left" Margin="153,8,0,0" VerticalAlignment="Top" Width="120" Height="125" RenderTransformOrigin="0.675,0.528" Foreground="{x:Null}" BorderBrush="{x:Null}" ClickMode="Press" IsHitTestVisible="False" Cursor="Hand" Focusable="False" IsTabStop="False" >
                     <Button.Background>
                         <ImageBrush ImageSource="/KincetGame;component/Images/esernyo.png"/>
                     </Button.Background>

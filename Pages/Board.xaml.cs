@@ -13,7 +13,7 @@ namespace KinectGame
     using System.Windows.Input;
     using System.Windows.Media;
     using System.Windows.Shapes;
-
+  
     using System;
     using System.ComponentModel;
     using System.Diagnostics;
@@ -47,8 +47,10 @@ namespace KinectGame
         private void ButtonClick(object sender, RoutedEventArgs e)
         {
 
-         Proba.Background= new SolidColorBrush(Colors.Red);
-            
+           
+
+
+            Proba.Background = Esernyo.Background;
        
 
 
