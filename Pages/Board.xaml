@@ -13,47 +13,42 @@
         <Grid.Background>
             <ImageBrush ImageSource="/KincetGame;component/Images/profiles.png"/>
         </Grid.Background>
-        <Canvas HorizontalAlignment="Left" Height="108" Margin="330,80,0,0" VerticalAlignment="Top" Width="87" RenderTransformOrigin="0.381,0.524" >
-
-            <Image Source="/KincetGame;component/Images/esernyo.png" Cursor="Hand" ScrollViewer.VerticalScrollBarVisibility="Disabled" UseLayoutRounding="False" RenderTransformOrigin="0,0" Height="119" Width="120" />
 
 
-        </Canvas>
-        <Canvas HorizontalAlignment="Left" Height="93" Margin="558,85,0,0" VerticalAlignment="Top" Width="129" RenderTransformOrigin="0.381,0.524" >
+        <Button HorizontalAlignment="Left" Margin="332,67,0,0" VerticalAlignment="Top" Width="120" Height="125" RenderTransformOrigin="0.675,0.528" Foreground="{x:Null}" BorderBrush="{x:Null}" ClickMode="Press" IsHitTestVisible="False" Cursor="Hand" Focusable="False" IsTabStop="False" >
+            <Button.Background>
+                <ImageBrush ImageSource="/KincetGame;component/Images/esernyo.png"/>
+            </Button.Background>
+        </Button>
 
-            <Image Canvas.Left="10" Source="/KincetGame;component/Images/sziv.png" Cursor="Hand" ScrollViewer.VerticalScrollBarVisibility="Disabled" UseLayoutRounding="False" RenderTransformOrigin="3.393,-0.241" Height="93" Width="100" Canvas.Top="10" />
+        <Button HorizontalAlignment="Left" Margin="569,85,0,0" VerticalAlignment="Top" Width="99" Height="107" RenderTransformOrigin="0.675,0.528" Foreground="{x:Null}" BorderBrush="{x:Null}" ClickMode="Press" IsHitTestVisible="False" Cursor="Hand" Focusable="False" IsTabStop="False" >
+            <Button.Background>
+                <ImageBrush ImageSource="/KincetGame;component/Images/sziv.png"/>
+            </Button.Background>
+        </Button>
 
+        <Button HorizontalAlignment="Left" Margin="824,99,0,0" VerticalAlignment="Top" Width="95" Height="93" RenderTransformOrigin="0.675,0.528" Foreground="{x:Null}" BorderBrush="{x:Null}" ClickMode="Press" IsHitTestVisible="False" Cursor="Hand" Focusable="False" IsTabStop="False" >
+            <Button.Background>
+                <ImageBrush ImageSource="/KincetGame;component/Images/labda.png"/>
+            </Button.Background>
+        </Button>
 
-        </Canvas>
-        <Canvas HorizontalAlignment="Left" Height="93" Margin="808,99,0,0" VerticalAlignment="Top" Width="129" RenderTransformOrigin="0.381,0.524" >
+        <Button HorizontalAlignment="Left" Margin="475,350,0,0" VerticalAlignment="Top" Width="95" Height="93" RenderTransformOrigin="0.675,0.528" Foreground="{x:Null}" BorderBrush="{x:Null}" ClickMode="Press" IsHitTestVisible="False" Cursor="Hand" Focusable="False" IsTabStop="False" >
+            <Button.Background>
+                <ImageBrush ImageSource="/KincetGame;component/Images/harang.png"/>
+            </Button.Background>
+        </Button>
 
-            <Image Canvas.Left="10" Source="/KincetGame;component/Images/labda.png" Cursor="Hand" ScrollViewer.VerticalScrollBarVisibility="Disabled" UseLayoutRounding="False" RenderTransformOrigin="3.393,-0.241" Height="93" Width="104" />
+        <Button HorizontalAlignment="Left" Margin="725,362,0,0" VerticalAlignment="Top" Width="113" Height="113" RenderTransformOrigin="0.675,0.528" Foreground="{x:Null}" BorderBrush="{x:Null}" ClickMode="Press" IsHitTestVisible="False" Cursor="Hand" Focusable="False" IsTabStop="False" >
+            <Button.Background>
+                <ImageBrush ImageSource="/KincetGame;component/Images/lohere.png"/>
+            </Button.Background>
+        </Button>
 
-
-        </Canvas>
-
-        <Canvas HorizontalAlignment="Left" Height="101" Margin="453,350,0,0" VerticalAlignment="Top" Width="133" RenderTransformOrigin="0.381,0.524" >
-
-            <Image Canvas.Left="21" Source="/KincetGame;component/Images/harang.png" Cursor="Hand" ScrollViewer.VerticalScrollBarVisibility="Disabled" UseLayoutRounding="False" RenderTransformOrigin="3.393,-0.241" Height="99" Width="98" />
-
-
-        </Canvas>
-
-        <Canvas HorizontalAlignment="Left" Height="101" Margin="705,362,0,0" VerticalAlignment="Top" Width="133" RenderTransformOrigin="0.381,0.524" >
-
-            <Image Canvas.Left="21" Source="/KincetGame;component/Images/lohere.png" Cursor="Hand" ScrollViewer.VerticalScrollBarVisibility="Disabled" UseLayoutRounding="False" RenderTransformOrigin="3.393,-0.241" Height="113" Width="112" />
-
-
-        </Canvas>
-
-
-        <Canvas HorizontalAlignment="Left" Height="101" Margin="1015,362,0,0" VerticalAlignment="Top" Width="133" RenderTransformOrigin="0.381,0.524" >
-
-            <Image Canvas.Left="21" Source="/KincetGame;component/Images/fagyi.png" Cursor="Hand" ScrollViewer.VerticalScrollBarVisibility="Disabled" UseLayoutRounding="False" RenderTransformOrigin="3.393,-0.241" Height="101" Width="112" />
-
-
-        </Canvas>
-
-
+        <Button HorizontalAlignment="Left" Margin="1038,362,0,0" VerticalAlignment="Top" Width="110" Height="105" RenderTransformOrigin="0.675,0.528" Foreground="{x:Null}" BorderBrush="{x:Null}" ClickMode="Press" IsHitTestVisible="False" Cursor="Hand" Focusable="False" IsTabStop="False" >
+            <Button.Background>
+                <ImageBrush ImageSource="/KincetGame;component/Images/fagyi.png"/>
+            </Button.Background>
+        </Button>
     </Grid>
 </UserControl>
