@@ -47,11 +47,15 @@ namespace KinectGame
         private void ButtonClick(object sender, RoutedEventArgs e)
         {
 
-          Proba.Background= new SolidColorBrush(Colors.Red);
+         Proba.Background= new SolidColorBrush(Colors.Red);
             
-            
+       
+
+
+          
             
         }
+       
 
       
 

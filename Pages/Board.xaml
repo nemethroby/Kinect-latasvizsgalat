@@ -14,46 +14,44 @@
             <ImageBrush ImageSource="/KincetGame;component/Images/profiles.png"/>
         </Grid.Background>
 
-        <Button x:Name="Proba" Content="Button" HorizontalAlignment="Left" Margin="107,109,0,0" VerticalAlignment="Top" Width="104" Height="99" Click="ButtonClick" IsHitTestVisible="True">
+        <Button x:Name="Proba" Content="Button" HorizontalAlignment="Left" Margin="107,109,0,0" VerticalAlignment="Top" Width="104" Height="99" Click="ButtonClick" >
             <Button.Background>
                 <ImageBrush ImageSource="/KincetGame;component/Images/labda.png"/>
             </Button.Background>
         </Button>
 
 
-
-
-        <Button x:Name="Esernyo" HorizontalAlignment="Left" Margin="332,67,0,0" VerticalAlignment="Top" Width="120" Height="125" RenderTransformOrigin="0.675,0.528" Foreground="{x:Null}" BorderBrush="{x:Null}" ClickMode="Press" IsHitTestVisible="False" Cursor="Hand" Focusable="False" IsTabStop="False" Click="ButtonClick">
+  <Button x:Name="Esernyo" HorizontalAlignment="Left" Margin="332,67,0,0" VerticalAlignment="Top" Width="120" Height="125" RenderTransformOrigin="0.675,0.528" Foreground="{x:Null}" BorderBrush="{x:Null}" ClickMode="Press" Cursor="Hand" Click="ButtonClick">
             <Button.Background>
                 <ImageBrush ImageSource="/KincetGame;component/Images/esernyo.png"/>
             </Button.Background>
         </Button>
 
-        <Button HorizontalAlignment="Left" Margin="569,85,0,0" VerticalAlignment="Top" Width="99" Height="107" RenderTransformOrigin="0.675,0.528" Foreground="{x:Null}" BorderBrush="{x:Null}" ClickMode="Press" IsHitTestVisible="False" Cursor="Hand" Focusable="False" IsTabStop="False" >
+        <Button HorizontalAlignment="Left" Margin="569,85,0,0" VerticalAlignment="Top" Width="99" Height="107" RenderTransformOrigin="0.675,0.528" Foreground="{x:Null}" BorderBrush="{x:Null}" ClickMode="Press" Cursor="Hand" Click="ButtonClick">
             <Button.Background>
                 <ImageBrush ImageSource="/KincetGame;component/Images/sziv.png"/>
             </Button.Background>
         </Button>
 
-        <Button HorizontalAlignment="Left" Margin="824,99,0,0" VerticalAlignment="Top" Width="95" Height="93" RenderTransformOrigin="0.675,0.528" Foreground="{x:Null}" BorderBrush="{x:Null}" ClickMode="Press" IsHitTestVisible="False" Cursor="Hand" Focusable="False" IsTabStop="False" >
+        <Button HorizontalAlignment="Left" Margin="824,99,0,0" VerticalAlignment="Top" Width="95" Height="93" RenderTransformOrigin="0.675,0.528" Foreground="{x:Null}" BorderBrush="{x:Null}" ClickMode="Press" Cursor="Hand" Click="ButtonClick" >
             <Button.Background>
                 <ImageBrush ImageSource="/KincetGame;component/Images/labda.png"/>
             </Button.Background>
         </Button>
 
-        <Button HorizontalAlignment="Left" Margin="475,350,0,0" VerticalAlignment="Top" Width="95" Height="93" RenderTransformOrigin="0.675,0.528" Foreground="{x:Null}" BorderBrush="{x:Null}" ClickMode="Press" IsHitTestVisible="False" Cursor="Hand" Focusable="False" IsTabStop="False" >
+        <Button HorizontalAlignment="Left" Margin="475,350,0,0" VerticalAlignment="Top" Width="95" Height="93" RenderTransformOrigin="0.675,0.528" Foreground="{x:Null}" BorderBrush="{x:Null}" ClickMode="Press" Cursor="Hand" Click="ButtonClick">
             <Button.Background>
                 <ImageBrush ImageSource="/KincetGame;component/Images/harang.png"/>
             </Button.Background>
         </Button>
 
-        <Button HorizontalAlignment="Left" Margin="725,362,0,0" VerticalAlignment="Top" Width="113" Height="113" RenderTransformOrigin="0.675,0.528" Foreground="{x:Null}" BorderBrush="{x:Null}" ClickMode="Press" IsHitTestVisible="False" Cursor="Hand" Focusable="False" IsTabStop="False" >
+        <Button HorizontalAlignment="Left" Margin="725,362,0,0" VerticalAlignment="Top" Width="113" Height="113" RenderTransformOrigin="0.675,0.528" Foreground="{x:Null}" BorderBrush="{x:Null}" ClickMode="Press" Cursor="Hand" Click="ButtonClick" >
             <Button.Background>
                 <ImageBrush ImageSource="/KincetGame;component/Images/lohere.png"/>
             </Button.Background>
         </Button>
 
-        <Button HorizontalAlignment="Left" Margin="1038,362,0,0" VerticalAlignment="Top" Width="110" Height="105" RenderTransformOrigin="0.675,0.528" Foreground="{x:Null}" BorderBrush="{x:Null}" ClickMode="Press" IsHitTestVisible="False" Cursor="Hand" Focusable="False" IsTabStop="False" >
+        <Button HorizontalAlignment="Left" Margin="1038,362,0,0" VerticalAlignment="Top" Width="110" Height="105" RenderTransformOrigin="0.675,0.528" Foreground="{x:Null}" BorderBrush="{x:Null}" ClickMode="Press" Cursor="Hand" Click="ButtonClick" >
             <Button.Background>
                 <ImageBrush ImageSource="/KincetGame;component/Images/fagyi.png"/>
             </Button.Background>
