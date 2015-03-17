@@ -7,11 +7,6 @@
     using Microsoft.Kinect.Toolkit.Input;
     using System.Diagnostics;
 
-    /// <summary>
-    /// A kinect engagement handler which will engage 0-2 people.
-    /// Engagement signal: putting a hand over the head
-    /// Disengagement signal: putting you hand down to your side
-    /// </summary>
     public class HandOverheadEngagementModel : IKinectEngagementManager
     {
         bool stopped = true;
@@ -111,7 +106,6 @@
             var currentlyEngagedHands = KinectCoreWindow.KinectManualEngagedHands;
             this.handsToEngage.Clear();
 
-            // check to see if anybody who is currently engaged should be disengaged
             foreach (var bodyHandPair in currentlyEngagedHands)
             {
                 var bodyTrackingId = bodyHandPair.BodyTrackingId;
@@ -119,7 +113,6 @@
                 {
                     if (body.TrackingId == bodyTrackingId)
                     {
-                        // check for disengagement
                         JointType engagedHandJoint =
                             (bodyHandPair.HandType == HandType.LEFT) ? JointType.HandLeft : JointType.HandRight;
                         bool toBeDisengaged = HandOverheadEngagementModel.IsHandBelowHip(engagedHandJoint, body);
@@ -136,7 +129,6 @@
                 }
             }
 
-            // check to see if anybody should be engaged, if not already engaged
             foreach (var body in this.bodies)
             {
                 if (this.handsToEngage.Count < this.engagedPeopleAllowed)
@@ -149,17 +141,17 @@
 
                     if (!alreadyEngaged)
                     {
-                        // check for engagement
+                        
                         if (HandOverheadEngagementModel.IsHandOverhead(JointType.HandLeft, body))
                         {
-                            // engage the left hand
+                            //bal kéz rögzítése
                             this.handsToEngage.Add(
                                 new BodyHandPair(body.TrackingId, HandType.LEFT));
                             this.engagementPeopleHaveChanged = true;
                         }
                         else if (HandOverheadEngagementModel.IsHandOverhead(JointType.HandRight, body))
                         {
-                            // engage the right hand
+                            //jobb kéz rögzítése
                             this.handsToEngage.Add(
                                 new BodyHandPair(body.TrackingId, HandType.RIGHT));
                             this.engagementPeopleHaveChanged = true;

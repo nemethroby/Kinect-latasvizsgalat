@@ -1,10 +1,4 @@
-﻿//------------------------------------------------------------------------------
-// <copyright file="SampleDataSource.cs" company="Microsoft">
-//     Copyright (c) Microsoft Corporation.  All rights reserved.
-// </copyright>
-//------------------------------------------------------------------------------
-
-namespace KinectGame.DataModel
+﻿namespace KinectGame.DataModel
 {
     using System;
     using System.Collections;
@@ -18,18 +12,6 @@ namespace KinectGame.DataModel
     using KinectGame.Common;
     using System.Globalization;
 
-    // The data model defined by this file serves as a representative example of a strongly-typed
-    // model that supports notification when members are added, removed, or modified.  The property
-    // names chosen coincide with data bindings in the standard item templates.
-    // Applications may use this model as a starting point and build on it, or discard it entirely and
-    // replace it with something appropriate to their needs.
-
-    /// <summary>
-    /// Creates a collection of groups and items with hard-coded content.
-    /// SampleDataSource initializes with placeholder data rather than live production
-    /// data so that sample data is provided at both design-time and run-time.
-    /// </summary>
-    [SuppressMessage("Microsoft.StyleCop.CSharp.DocumentationRules", "SA1600:ElementsMustBeDocumented", Justification = "File is from Windows Store template")]
     public sealed class SampleDataSource
     {
         private static SampleDataSource sampleDataSource = new SampleDataSource();
@@ -111,7 +93,7 @@ namespace KinectGame.DataModel
 
         public static SampleDataCollection GetGroup(string uniqueId)
         {
-            // Simple linear search is acceptable for small data sets
+           
             var matches = sampleDataSource.AllGroups.Where((group) => group.UniqueId.Equals(uniqueId));
             if (matches.Count() == 1)
             {
@@ -123,7 +105,7 @@ namespace KinectGame.DataModel
 
         public static SampleDataItem GetItem(string uniqueId)
         {
-            // Simple linear search is acceptable for small data sets
+            
             var matches = sampleDataSource.AllGroups.SelectMany(group => group.Items).Where((item) => item.UniqueId.Equals(uniqueId));
             if (matches.Count() == 1)
             {
@@ -134,55 +116,16 @@ namespace KinectGame.DataModel
         }
     }
 
-    /// <summary>
-    /// Base class for <see cref="SampleDataItem"/> and <see cref="SampleDataCollection"/> that
-    /// defines properties common to both.
-    /// </summary>
     public abstract class SampleDataCommon : BindableBase
     {
-        /// <summary>
-        /// baseUri for image loading purposes
-        /// </summary>
-        //private static Uri baseUri = new Uri("pack://application:,,,/");
 
-        /// <summary>
-        /// Field to store uniqueId
-        /// </summary>
         private string uniqueId = string.Empty;
-
-        /// <summary>
-        /// Field to store title
-        /// </summary>
         private string title = string.Empty;
-
-        /// <summary>
-        /// Field to store subtitle
-        /// </summary>
         private string subtitle = string.Empty;
-
-        /// <summary>
-        /// Field to store description
-        /// </summary>
         private string description = string.Empty;
-
-        /// <summary>
-        /// Field to store image
-        /// </summary>
         private ImageSource image = null;
-
-        /// <summary>
-        /// Field to store image path
-        /// </summary>
         private Uri imagePath = null;
 
-        /// <summary>
-        /// Initializes a new instance of the <see cref="SampleDataCommon" /> class.
-        /// </summary>
-        /// <param name="uniqueId">The unique id of this item.</param>
-        /// <param name="title">The title of this item.</param>
-        /// <param name="subtitle">The subtitle of this item.</param>
-        /// <param name="imagePath">A relative path of the image for this item.</param>
-        /// <param name="description">A description of this item.</param>
         protected SampleDataCommon(string uniqueId, string title, string subtitle, Uri imagePath, string description)
         {
             this.uniqueId = uniqueId;
@@ -192,9 +135,6 @@ namespace KinectGame.DataModel
             this.imagePath = imagePath;
         }
 
-        /// <summary>
-        /// Gets or sets UniqueId.
-        /// </summary>
         public string UniqueId
         {
             get { return this.uniqueId; }
@@ -251,9 +191,6 @@ namespace KinectGame.DataModel
         }
     }
 
-    /// <summary>
-    /// Generic item data model.
-    /// </summary>
     public class SampleDataItem : SampleDataCommon
     {
         private string content = string.Empty;
@@ -268,17 +205,6 @@ namespace KinectGame.DataModel
             this.navigationPage = null;
         }
 
-        /// <summary>
-        /// Initializes a new instance of the <see cref="SampleDataItem" /> class.
-        /// </summary>
-        /// <param name="uniqueId">The unique id of this item.</param>
-        /// <param name="title">The title of this item.</param>
-        /// <param name="subtitle">The subtitle of this item.</param>
-        /// <param name="imagePath">A relative path of the image for this item.</param>
-        /// <param name="description">A description of this item.</param>
-        /// <param name="content">The content of this item.</param>
-        /// <param name="group">The group of this item.</param>
-        /// <param name="navigationPage">What page should launch when clicking this item.</param>
         public SampleDataItem(string uniqueId, string title, string subtitle, Uri imagePath, string description, string content, SampleDataCollection group, Type navigationPage)
             : base(uniqueId, title, subtitle, imagePath, description)
         {
@@ -306,9 +232,6 @@ namespace KinectGame.DataModel
         }
     }
 
-    /// <summary>
-    /// Generic group data model.
-    /// </summary>
     public class SampleDataCollection : SampleDataCommon, IEnumerable
     {
         private ObservableCollection<SampleDataItem> items = new ObservableCollection<SampleDataItem>();
@@ -337,12 +260,6 @@ namespace KinectGame.DataModel
 
         private void ItemsCollectionChanged(object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
         {
-            // Provides a subset of the full items collection to bind to from a GroupedItemsPage
-            // for two reasons: GridView will not virtualize large items collections, and it
-            // improves the user experience when browsing through groups with large numbers of
-            // items.
-            // A maximum of 12 items are displayed because it results in filled grid columns
-            // whether there are 1, 2, 3, 4, or 6 rows displayed
             switch (e.Action)
             {
                 case NotifyCollectionChangedAction.Add:

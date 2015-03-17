@@ -19,11 +19,8 @@ namespace KinectGame
         private DragDropElement _dragDropElement;
         private bool _disposedValue;
 
-
-        private Point BasePoint = new Point(0.0, 0.0);
-
         
-
+        //a DragDropElement konstruktorával együtt jön létre
         public DragDropElementController(IInputModel inputModel, KinectRegion kinectRegion)
         {
 
@@ -33,8 +30,11 @@ namespace KinectGame
             _kinectRegion = kinectRegion;
             _dragDropElement = _inputModel.Element as DragDropElement;
 
+            //mozgatás kezdete
             _inputModel.ManipulationStarted += OnManipulationStarted;
+            //mozgatás közben
             _inputModel.ManipulationUpdated += OnManipulationUpdated;
+            //mozgatás végén
             _inputModel.ManipulationCompleted += OnManipulationCompleted;
 
         }
@@ -44,17 +44,20 @@ namespace KinectGame
        
 
 
-
+        //mozgatás végén
         private void OnManipulationCompleted(object sender,
             KinectManipulationCompletedEventArgs kinectManipulationCompletedEventArgs)
         {
         }
 
+        //mozgatés közben
         private void OnManipulationUpdated(object sender, KinectManipulationUpdatedEventArgs e)
         {
             var parent = _dragDropElement.Parent as Canvas;
             if (parent != null)
             {
+                //x,y változóba menti a _dragDropElement jelenlegi helyét
+                //d változó a kéz kurzor jelenlegi pozíciója
                 var d = e.Delta.Translation;
                 var y = Canvas.GetTop(_dragDropElement);
                 var x = Canvas.GetLeft(_dragDropElement);
@@ -62,15 +65,17 @@ namespace KinectGame
                 if (double.IsNaN(y)) y = 0;
                 if (double.IsNaN(x)) x = 0;
 
-                // Delta value is between 0.0 and 1.0 so they need to be scaled within the kinect region.
+                
                 var yD = d.Y * _kinectRegion.ActualHeight;
                 var xD = d.X * _kinectRegion.ActualWidth;
 
+                //a Canvas mozgatása
                 Canvas.SetTop(_dragDropElement, y + yD);
                 Canvas.SetLeft(_dragDropElement, x + xD);
             }
         }
 
+        //mozgatás kezdete
         private void OnManipulationStarted(object sender, KinectManipulationStartedEventArgs e)
         {
         }
@@ -85,6 +90,7 @@ namespace KinectGame
             get { return _inputModel.Element as FrameworkElement; }
         }
 
+        //destruktor
         protected virtual void Dispose(bool disposing)
         {
             if (!_disposedValue)

@@ -7,11 +7,6 @@
     using Microsoft.Kinect.Toolkit.Input;
     using System.Diagnostics;
 
-    /// <summary>
-    /// A kinect engagement handler which will engage 0-2 people.
-    /// Engagement signal: putting a hand over the head
-    /// Disengagement signal: putting you hand down to your side
-    /// </summary>
     public class HandInScreenEngagementModel : IKinectEngagementManager
     {
         bool stopped = true;
@@ -49,7 +44,6 @@
             {
                 TrackEngagedPlayersViaHandInScreen();
 
-                // reached the start of a new set of pointerPoints (0-12 each frame, 0-6 people x 2 hands)
                 this.pointerPoints.Clear();
                 this.pointerPoints.Add(kinectPointerPoint);
                 this.lastFrameTime = timeOfPointer;
@@ -103,8 +97,6 @@
 
         private bool IsHandBelowScreen(PointF unclampedHandPosition, uint pointerId)
         {
-            // if manipulatableModel is currently captured, means a grip for scroll or zoom is happening.
-            // in that case, we should not disengage, even if the hand location qualifies.
             ManipulatableModel manipulatableModel = this.inputPointerManager.GetCapturedInputModel(pointerId) as ManipulatableModel;
             return (unclampedHandPosition.Y > 1.1 && manipulatableModel == null);
         }
@@ -120,7 +112,6 @@
             var currentlyEngagedHands = KinectCoreWindow.KinectManualEngagedHands;
             this.handsToEngage.Clear();
 
-            // check to see if anybody who is currently engaged should be disengaged
             foreach (var bodyHandPair in currentlyEngagedHands)
             {
                 foreach (var kinectPointerPoint in this.pointerPoints)
@@ -128,7 +119,7 @@
                     if (kinectPointerPoint.Properties.BodyTrackingId == bodyHandPair.BodyTrackingId
                         && kinectPointerPoint.Properties.HandType == bodyHandPair.HandType)
                     {
-                        // check for disengagement
+                        
                         bool toBeDisengaged = this.IsHandBelowScreen(kinectPointerPoint.Properties.UnclampedPosition, kinectPointerPoint.PointerId);
 
                         if (toBeDisengaged)
@@ -143,7 +134,7 @@
                 }
             }
 
-            // check to see if anybody should be engaged, if not already engaged
+            
             foreach (var kinectPointerPoint in this.pointerPoints)
             {
                 if (this.handsToEngage.Count < this.engagedPeopleAllowed)
@@ -156,10 +147,10 @@
 
                     if (!alreadyEngaged)
                     {
-                        // check for engagement
+                        
                         if (HandInScreenEngagementModel.IsHandInScreen(kinectPointerPoint.Properties.UnclampedPosition))
                         {
-                            // engage the left hand
+                            
                             this.handsToEngage.Add(
                                 new BodyHandPair(kinectPointerPoint.Properties.BodyTrackingId, kinectPointerPoint.Properties.HandType));
                             this.engagementPeopleHaveChanged = true;

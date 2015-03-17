@@ -167,44 +167,38 @@
         }
 
       
-
+        //menüelem kattintásánál hívódik meg
         private void ButtonClick(object sender, RoutedEventArgs e)
         {
             var button = (Button)e.OriginalSource;
             SampleDataItem sampleDataItem = button.DataContext as SampleDataItem;
 
+            //ha az adott menüelem tartalmaz adatot és más oldalra van irányítva
             if (sampleDataItem != null && sampleDataItem.NavigationPage != null)
             {
-                backButton.Visibility = System.Windows.Visibility.Visible;  
+                //a vissza gomb megjelenítése
+                backButton.Visibility = System.Windows.Visibility.Visible;
+                //a menüelemben leírt oldalra irányítás
                 navigationRegion.Content = Activator.CreateInstance(sampleDataItem.NavigationPage);
             }
             else
             {
+                //minden más esetben meghívja az alap oldalt
                 var selectionDisplay = new SelectionDisplay(button.Content as string);
                 this.kinectRegionGrid.Children.Add(selectionDisplay);
-
-                // Selection dialog covers the entire interact-able area, so the current press interaction
-                // should be completed. Otherwise hover capture will allow the button to be clicked again within
-                // the same interaction (even whilst no longer visible).
                 selectionDisplay.Focus();
-
-                // Since the selection dialog covers the entire interact-able area, we should also complete
-                // the current interaction of all other pointers.  This prevents other users interacting with elements
-                // that are no longer visible.
                 this.kinectRegion.InputPointerManager.CompleteGestures();
 
                 e.Handled = true;
             }
         }
 
-        /// <summary>
-        /// Handle the back button click.
-        /// </summary>
-        /// <param name="sender">Event sender</param>
-        /// <param name="e">Event arguments</param>
+        //vissza gomb kattintáskor
         private void GoBack(object sender, RoutedEventArgs e)
         {
+            //a vissza gomb elrejétése
             backButton.Visibility = System.Windows.Visibility.Hidden;
+            //a főmenü megjelenítése
             navigationRegion.Content = this.kinectRegionGrid;
         }
 

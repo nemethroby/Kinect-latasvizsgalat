@@ -13,7 +13,6 @@
     <Style x:Key="BaselineTextStyle" TargetType="TextBlock" BasedOn="{StaticResource BasicTextStyle}">
         <Setter Property="LineHeight" Value="20"/>
         <Setter Property="LineStackingStrategy" Value="BlockLineHeight"/>
-        <!-- Properly align text along its baseline -->
         <Setter Property="RenderTransform">
             <Setter.Value>
                 <TranslateTransform X="-1" Y="4"/>
