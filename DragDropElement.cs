@@ -17,6 +17,7 @@ namespace KinectGame
         private Point BasePoint = new Point(0.0, 0.0);
         private bool moving = false;
         Point _previous = new Point();
+        private Rectangle finish;
 
         //konstruktor
         public IKinectController CreateController(IInputModel inputModel, KinectRegion kinectRegion)
@@ -38,8 +39,25 @@ namespace KinectGame
 
         void DragDropElement_PreviewMouseMove(object sender, MouseEventArgs e)
         {
+            Canvas canvas = this.Parent as Canvas;
+            finish = canvas.FindName("finish") as Rectangle;
+            Label carXLabel = canvas.FindName("carX") as Label;
+            Label carYLabel = canvas.FindName("carY") as Label;
+            Label finishXLabel = canvas.FindName("finishX") as Label;
+            Label finishYLabel = canvas.FindName("finishY") as Label;
+            double finishX = Canvas.GetLeft(finish);
+            double finishY = Canvas.GetTop(finish);
+            double carX = Canvas.GetLeft(this);
+            double carY = Canvas.GetTop(this);
+
+
+
             if (moving)
             {
+                carXLabel.Content = carX + this.ActualWidth;
+                carYLabel.Content = carY + this.ActualHeight;
+                finishXLabel.Content = finishX + finish.ActualWidth / 2;
+                finishYLabel.Content = finishY + finish.ActualWidth / 2;
                 var element = sender as FrameworkElement;
                 //jelenlegi pozíció elmentése egy pontba
                 var currentPoint = e.GetPosition(element);
@@ -50,8 +68,17 @@ namespace KinectGame
 
                 (element as FrameworkElement).SetValue(Canvas.TopProperty,
                      e.GetPosition((element as FrameworkElement).Parent as FrameworkElement).Y - _previous.Y);
+               
+                
+                if ( (carX+ActualWidth/2 >finishX) && carY-ActualHeight/2 < finishY) {
 
+                    finish.Fill = new SolidColorBrush(Colors.Blue);
+                }
+               
             }
+            
+           
+
         }
 
         //mozgatás vége
@@ -75,6 +102,18 @@ namespace KinectGame
             element.CaptureMouse();
             moving = true;
             e.Handled = true;
+
+            Canvas canvas = this.Parent as Canvas;
+            finish = canvas.FindName("finish") as Rectangle;
+
+            double finishX = Canvas.GetLeft(finish);
+            double finishY = Canvas.GetTop(finish);
+            double carX = Canvas.GetLeft(this);
+            double carY = Canvas.GetTop(this);
+            if (carX+this.Width==finishX){
+
+            MessageBox.Show("cica");
+    }
         }
 
        
@@ -88,5 +127,12 @@ namespace KinectGame
         {
             get { return false; }
         }
+
+        public void Finish() { 
+            
+        
+        
+        }
+
     }
 }

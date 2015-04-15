@@ -18,6 +18,7 @@ namespace KinectGame
         private KinectRegion _kinectRegion;
         private DragDropElement _dragDropElement;
         private bool _disposedValue;
+        private Rectangle finish;
 
         
         //a DragDropElement konstruktorával együtt jön létre
@@ -25,10 +26,11 @@ namespace KinectGame
         {
 
 
-
+            
             _inputModel = inputModel as ManipulatableModel;
             _kinectRegion = kinectRegion;
             _dragDropElement = _inputModel.Element as DragDropElement;
+            
 
             //mozgatás kezdete
             _inputModel.ManipulationStarted += OnManipulationStarted;
@@ -111,6 +113,8 @@ namespace KinectGame
         {
             Dispose(true);
         }
+
+   
 
         
     }
