@@ -19,11 +19,6 @@ C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\KinectGame.csp
 C:\Users\Róbert\Downloads\Kinect-latasvizsgalat-87ec230442bbc912e39fdbce1d1f8e0c236e9b97\Kinect-latasvizsgalat\bin\AnyCPU\Debug\KincetGame.exe.config
 C:\Users\Róbert\Downloads\Kinect-latasvizsgalat-87ec230442bbc912e39fdbce1d1f8e0c236e9b97\Kinect-latasvizsgalat\obj\Debug\KincetGame.exe
 C:\Users\Róbert\Downloads\Kinect-latasvizsgalat-87ec230442bbc912e39fdbce1d1f8e0c236e9b97\Kinect-latasvizsgalat\obj\Debug\KincetGame.pdb
-E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\bin\AnyCPU\Debug\KincetGame.exe.config
-E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\obj\Debug\KincetGame.exe
-E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\obj\Debug\KincetGame.pdb
-E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\bin\AnyCPU\Debug\KincetGame.exe
-E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\bin\AnyCPU\Debug\KincetGame.pdb
 E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Microsoft.Kinect.dll
 E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Microsoft.Kinect.Wpf.Controls.dll
 E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\bin\AnyCPU\Debug\Microsoft.Kinect.xml
@@ -39,15 +34,10 @@ E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\obj\Debug\Pages\Game.g.cs
 E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\obj\Debug\SelectionDisplay.g.cs
 E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\obj\Debug\App.g.cs
 E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\obj\Debug\GeneratedInternalTypeHelper.g.cs
-E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\obj\Debug\KincetGame_MarkupCompile.cache
-E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\obj\Debug\KincetGame_MarkupCompile.lref
 E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\obj\Debug\MainWindow.baml
 E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\obj\Debug\Pages\Game.baml
-E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\obj\Debug\KincetGame.g.resources
 E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\obj\Debug\KinectGame.Properties.Resources.resources
 E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\obj\Debug\KinectGame.csproj.GenerateResource.Cache
-E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\obj\Debug\Pages\Board.baml
-E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\obj\Debug\Pages\Board.g.cs
 C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\Pages\Board.g.cs
 C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\Pages\Board.baml
 C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\bin\AnyCPU\Debug\KinectGame.exe.config
@@ -60,3 +50,13 @@ C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\KinectGame.exe
 C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\KinectGame.pdb
 D:\workspace\Visual Studio 2013\Projects\Kinect-latasvizsgalat\obj\Debug\KinectGame.g.resources
 D:\workspace\Visual Studio 2013\Projects\Kinect-latasvizsgalat\bin\AnyCPU\Debug\KinectGame.exe.config
+E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\bin\AnyCPU\Debug\KinectGame.exe.config
+E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\bin\AnyCPU\Debug\KinectGame.exe
+E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\bin\AnyCPU\Debug\KinectGame.pdb
+E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\obj\Debug\Pages\Profiles.g.cs
+E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\obj\Debug\KinectGame_MarkupCompile.cache
+E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\obj\Debug\KinectGame_MarkupCompile.lref
+E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\obj\Debug\Pages\Profiles.baml
+E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\obj\Debug\KinectGame.g.resources
+E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\obj\Debug\KinectGame.exe
+E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\obj\Debug\KinectGame.pdb

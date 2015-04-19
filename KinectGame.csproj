@@ -221,9 +221,6 @@
     <Resource Include="Images\menuitem_play.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\colored_carpet.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\colored_police.png" />
   </ItemGroup>
   <ItemGroup>
@@ -236,31 +233,40 @@
     <Resource Include="Images\menu.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\jelek.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\profiles.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\esernyo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\sziv.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\labda.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\harang.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\lohere.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\fagyi.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\kerdojeles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cseresznye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\gomba.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\fagylalt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\süni.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\eserny.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\hajó.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\gumi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\kapu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\létra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\zsák.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
