@@ -55,7 +55,7 @@
                         "Several types of buttons with custom styles",
                         itemContent,
                         group1,
-                        typeof(Board)));
+                        typeof(Profiles)));
             group1.Items.Add(
                     new SampleDataItem(
                         "Group-1-Item-5",
@@ -133,6 +133,10 @@
             this.subtitle = subtitle;
             this.description = description;
             this.imagePath = imagePath;
+        }
+        protected SampleDataCommon()
+        {
+            
         }
 
         public string UniqueId
@@ -212,6 +216,12 @@
             this.group = group;
             this.navigationPage = navigationPage;
         }
+        public SampleDataItem(Type navigationPage)
+        {
+            this.navigationPage = navigationPage;
+            
+            
+        }
 
         public string Content
         {
@@ -242,6 +252,7 @@
         {
             this.Items.CollectionChanged += this.ItemsCollectionChanged;
         }
+       
 
         public ObservableCollection<SampleDataItem> Items
         {

@@ -104,8 +104,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Pages\Board.xaml.cs">
-      <DependentUpon>Board.xaml</DependentUpon>
+    <Compile Include="Pages\Profiles.xaml.cs">
+      <DependentUpon>Profiles.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Game.xaml.cs">
       <DependentUpon>Game.xaml</DependentUpon>
@@ -143,7 +143,7 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Pages\Board.xaml">
+    <Page Include="Pages\Profiles.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

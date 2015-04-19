@@ -18,7 +18,7 @@ namespace KinectGame
         private KinectRegion _kinectRegion;
         private DragDropElement _dragDropElement;
         private bool _disposedValue;
-        private Rectangle finish;
+       
 
         
         //a DragDropElement konstruktorával együtt jön létre

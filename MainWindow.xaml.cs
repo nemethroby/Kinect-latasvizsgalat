@@ -201,6 +201,36 @@
             //a főmenü megjelenítése
             navigationRegion.Content = this.kinectRegionGrid;
         }
+        private void ProfileButtonClick(object sender, RoutedEventArgs e)
+        {
+            var button = (Button)e.OriginalSource;
+            
+
+            SampleDataItem sampleDataItem  = new SampleDataItem(typeof(Profiles));
+
+           
+            
+            //ha az adott menüelem tartalmaz adatot és más oldalra van irányítva
+            if (sampleDataItem != null && sampleDataItem.NavigationPage != null)
+            {
+                //a vissza gomb megjelenítése
+                backButton.Visibility = System.Windows.Visibility.Visible;
+                //a menüelemben leírt oldalra irányítás
+                navigationRegion.Content = Activator.CreateInstance(sampleDataItem.NavigationPage);
+            }
+            else
+            {
+                //minden más esetben meghívja az alap oldalt
+                var selectionDisplay = new SelectionDisplay(button.Content as string);
+                this.kinectRegionGrid.Children.Add(selectionDisplay);
+                selectionDisplay.Focus();
+                this.kinectRegion.InputPointerManager.CompleteGestures();
+
+                e.Handled = true;
+            }
+        }
+
+       
 
 
 
