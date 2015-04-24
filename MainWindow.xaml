@@ -40,12 +40,16 @@
                 
                 <Button 
 		            HorizontalAlignment="Left"
-		            Margin="120,-10,0,0"
+		            Margin="120,0,0,0"
 		            VerticalAlignment="Top"
 		            Width="120"
                         Height="125"
-		            Click="ProfileButtonClick" Name="Profiles" >
-                   
+                     Style="{StaticResource MyButtonStyle}" 
+		            Click="ProfileButtonClick" Name="Profiles" Cursor="Hand" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="Images/eserny.png"/>
+                    </Button.Background>
+
 
                 </Button>
 

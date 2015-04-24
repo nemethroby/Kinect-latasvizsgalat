@@ -221,9 +221,6 @@
     <Resource Include="Images\menuitem_play.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\colored_police.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\Autó.png" />
   </ItemGroup>
   <ItemGroup>

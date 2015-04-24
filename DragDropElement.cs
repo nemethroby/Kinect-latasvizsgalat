@@ -8,6 +8,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Shapes;
 using System.ComponentModel;
+using System.Diagnostics;
+using KinectGame.DataModel;
 
 namespace KinectGame
 {
@@ -18,6 +20,7 @@ namespace KinectGame
         private bool moving = false;
         Point _previous = new Point();
         private Rectangle finish;
+        Stopwatch sw = new Stopwatch();
 
         //konstruktor
         public IKinectController CreateController(IInputModel inputModel, KinectRegion kinectRegion)
@@ -39,25 +42,34 @@ namespace KinectGame
 
         void DragDropElement_PreviewMouseMove(object sender, MouseEventArgs e)
         {
+
+            
+
+       
+
+            
             Canvas canvas = this.Parent as Canvas;
             finish = canvas.FindName("finish") as Rectangle;
-            Label carXLabel = canvas.FindName("carX") as Label;
-            Label carYLabel = canvas.FindName("carY") as Label;
-            Label finishXLabel = canvas.FindName("finishX") as Label;
-            Label finishYLabel = canvas.FindName("finishY") as Label;
+           // Label carXLabel = canvas.FindName("carX") as Label;
+            //Label carYLabel = canvas.FindName("carY") as Label;
+            //Label finishXLabel = canvas.FindName("finishX") as Label;
+            //Label finishYLabel = canvas.FindName("finishY") as Label;
             double finishX = Canvas.GetLeft(finish);
             double finishY = Canvas.GetTop(finish);
             double carX = Canvas.GetLeft(this);
             double carY = Canvas.GetTop(this);
-
+           
+            var navigationRegion = Window.GetWindow(this).FindName("navigationRegion") as ContentControl;
+            var kinectRegionGrid = Window.GetWindow(this).FindName("kinectRegionGrid") as Grid;
+            var backButton = Window.GetWindow(this).FindName("backButton") as Button;
 
 
             if (moving)
             {
-                carXLabel.Content = carX + this.ActualWidth;
-                carYLabel.Content = carY + this.ActualHeight;
-                finishXLabel.Content = finishX + finish.ActualWidth / 2;
-                finishYLabel.Content = finishY + finish.ActualWidth / 2;
+                //carXLabel.Content = carX + this.ActualWidth;
+                //carYLabel.Content = carY + this.ActualHeight;
+               // finishXLabel.Content = sw.Elapsed.Seconds;
+               // finishYLabel.Content = finishY + finish.ActualWidth / 2;
                 var element = sender as FrameworkElement;
                 //jelenlegi pozíció elmentése egy pontba
                 var currentPoint = e.GetPosition(element);
@@ -70,9 +82,26 @@ namespace KinectGame
                      e.GetPosition((element as FrameworkElement).Parent as FrameworkElement).Y - _previous.Y);
                
                 
-                if ( (carX+ActualWidth/2 >finishX) && carY-ActualHeight/2 < finishY) {
+                if ( (carX+ActualWidth/2 >finishX+finish.ActualWidth/2) && carY-ActualHeight/2 < finishY+finish.ActualHeight/2) {
 
-                    finish.Fill = new SolidColorBrush(Colors.Blue);
+                    
+                    
+                    sw.Stop();
+                    MessageBoxResult result = MessageBox.Show("Az időd: "+sw.Elapsed.Seconds+"s Újra?", "", MessageBoxButton.YesNo, MessageBoxImage.Question);
+                    if (result == MessageBoxResult.Yes)
+                    {
+                         SampleDataItem sampleDataItem  = new SampleDataItem(typeof(Game));
+                         navigationRegion.Content = Activator.CreateInstance(sampleDataItem.NavigationPage);
+                    }
+                    else {
+                        backButton.Visibility = System.Windows.Visibility.Hidden;
+                        navigationRegion.Content = kinectRegionGrid;
+                    
+                    
+                    }
+                    
+
+
                 }
                
             }
@@ -103,20 +132,9 @@ namespace KinectGame
             moving = true;
             e.Handled = true;
 
-            Canvas canvas = this.Parent as Canvas;
-            finish = canvas.FindName("finish") as Rectangle;
+            sw.Start();
 
-            double finishX = Canvas.GetLeft(finish);
-            double finishY = Canvas.GetTop(finish);
-            double carX = Canvas.GetLeft(this);
-            double carY = Canvas.GetTop(this);
-            if (carX+this.Width==finishX){
-
-            MessageBox.Show("cica");
-    }
         }
-
-       
 
         public bool IsManipulatable
         {

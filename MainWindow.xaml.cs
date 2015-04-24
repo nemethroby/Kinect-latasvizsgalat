@@ -122,6 +122,7 @@
                 this.kinectSensor.Close();
                 this.kinectSensor = null;
             }
+            Application.Current.Shutdown();
         }
 
         

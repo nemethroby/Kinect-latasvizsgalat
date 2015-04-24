@@ -17,38 +17,38 @@
 
 
 
-        <Button x:Name="Esernyo" HorizontalAlignment="Left" Margin="314,68,0,0" VerticalAlignment="Top" Width="135" Height="125" RenderTransformOrigin="0.675,0.528" Foreground="{x:Null}" BorderBrush="{x:Null}" ClickMode="Press" Cursor="Hand" Click="ProfileChange" >
+        <Button x:Name="Esernyo" HorizontalAlignment="Left" Margin="314,68,0,0" VerticalAlignment="Top" Width="135" Height="125" RenderTransformOrigin="0.675,0.528" Style="{StaticResource MyButtonStyle}" ClickMode="Press" Cursor="Hand" Click="ProfileChange" >
 
             <Button.Background>
                 <ImageBrush ImageSource="/KinectGame;component/Images/eserny.png"/>
             </Button.Background>
         </Button>
 
-        <Button HorizontalAlignment="Left" Margin="566,83,0,0" VerticalAlignment="Top" Width="99" Height="107" RenderTransformOrigin="0.675,0.528" Foreground="{x:Null}" BorderBrush="{x:Null}" ClickMode="Press" Cursor="Hand" Click="ProfileChange">
+        <Button HorizontalAlignment="Left" Margin="566,83,0,0" VerticalAlignment="Top" Width="99" Height="107" RenderTransformOrigin="0.675,0.528" Style="{StaticResource MyButtonStyle}" ClickMode="Press" Cursor="Hand" Click="ProfileChange">
             <Button.Background>
                 <ImageBrush ImageSource="/KinectGame;component/Images/cseresznye.png"/>
             </Button.Background>
         </Button>
 
-        <Button HorizontalAlignment="Left" Margin="824,99,0,0" VerticalAlignment="Top" Width="95" Height="93" RenderTransformOrigin="0.675,0.528" Foreground="{x:Null}" BorderBrush="{x:Null}" ClickMode="Press" Cursor="Hand" Click="ProfileChange" >
+        <Button HorizontalAlignment="Left" Margin="824,99,0,0" VerticalAlignment="Top" Width="95" Height="93" RenderTransformOrigin="0.675,0.528" Style="{StaticResource MyButtonStyle}" ClickMode="Press" Cursor="Hand" Click="ProfileChange" >
             <Button.Background>
                 <ImageBrush ImageSource="/KinectGame;component/Images/gomba.png"/>
             </Button.Background>
         </Button>
 
-        <Button HorizontalAlignment="Left" Margin="462,338,0,0" VerticalAlignment="Top" Width="110" Height="105" RenderTransformOrigin="0.675,0.528" Foreground="{x:Null}" BorderBrush="{x:Null}" ClickMode="Press" Cursor="Hand" Click="ProfileChange">
+        <Button HorizontalAlignment="Left" Margin="462,338,0,0" VerticalAlignment="Top" Width="110" Height="105" RenderTransformOrigin="0.675,0.528" Style="{StaticResource MyButtonStyle}" ClickMode="Press" Cursor="Hand" Click="ProfileChange">
             <Button.Background>
                 <ImageBrush ImageSource="/KinectGame;component/Images/hajó.png"/>
             </Button.Background>
         </Button>
 
-        <Button HorizontalAlignment="Left" Margin="716,355,0,0" VerticalAlignment="Top" Width="152" Height="120" RenderTransformOrigin="0.675,0.528" Foreground="{x:Null}" BorderBrush="{x:Null}" ClickMode="Press" Cursor="Hand" Click="ProfileChange" >
+        <Button HorizontalAlignment="Left" Margin="716,355,0,0" VerticalAlignment="Top" Width="152" Height="120" RenderTransformOrigin="0.675,0.528" Style="{StaticResource MyButtonStyle}" ClickMode="Press" Cursor="Hand" Click="ProfileChange" >
             <Button.Background>
                 <ImageBrush ImageSource="/KinectGame;component/Images/süni.png"/>
             </Button.Background>
         </Button>
 
-        <Button HorizontalAlignment="Left" Margin="1048,350,0,0" VerticalAlignment="Top" Width="87" Height="118" RenderTransformOrigin="0.675,0.528" Foreground="{x:Null}" BorderBrush="{x:Null}" ClickMode="Press" Cursor="Hand" Click="ProfileChange" >
+        <Button HorizontalAlignment="Left" Margin="1048,350,0,0" VerticalAlignment="Top" Width="87" Height="118" RenderTransformOrigin="0.675,0.528" Style="{StaticResource MyButtonStyle}" ClickMode="Press" Cursor="Hand" Click="ProfileChange" >
             <Button.Background>
                 <ImageBrush ImageSource="/KinectGame;component/Images/fagylalt.png"/>
             </Button.Background>
