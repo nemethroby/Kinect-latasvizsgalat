@@ -38,8 +38,6 @@ E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\obj\Debug\MainWindow.baml
 E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\obj\Debug\Pages\Game.baml
 E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\obj\Debug\KinectGame.Properties.Resources.resources
 E:\Pe\ProjektLabor\GH\Kinect-latasvizsgalat\obj\Debug\KinectGame.csproj.GenerateResource.Cache
-C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\Pages\Board.g.cs
-C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\Pages\Board.baml
 C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\bin\AnyCPU\Debug\KinectGame.exe.config
 C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\bin\AnyCPU\Debug\KinectGame.exe
 C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\bin\AnyCPU\Debug\KinectGame.pdb
@@ -87,3 +85,6 @@ D:\workspace\Visual Studio 2013\Projects\Kinect-latasvizsgalat\obj\Debug\Pages\P
 D:\workspace\Visual Studio 2013\Projects\Kinect-latasvizsgalat\obj\Debug\Pages\Game.baml
 D:\workspace\Visual Studio 2013\Projects\Kinect-latasvizsgalat\obj\Debug\KinectGame.Properties.Resources.resources
 D:\workspace\Visual Studio 2013\Projects\Kinect-latasvizsgalat\obj\Debug\KinectGame.csproj.GenerateResource.Cache
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\KinectGame.csprojResolveAssemblyReference.cache
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\Pages\Profiles.g.cs
+C:\Users\Róbert\Documents\Kinect\Kinect-latasvizsgalat\obj\Debug\Pages\Profiles.baml

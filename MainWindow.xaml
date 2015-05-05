@@ -36,8 +36,8 @@
                 <!--vissza gomb-->
                 <Button x:Name="backButton" Visibility="Hidden" Grid.Column="0" Style="{StaticResource BackButtonStyle}" Click="GoBack" Width="120" Margin="-120,0,0,0"/>
                 <!--az aktuális profil indexképe-->
-                
-                
+
+
                 <Button 
 		            HorizontalAlignment="Left"
 		            Margin="120,0,0,0"
@@ -80,10 +80,14 @@
                                     <WrapPanel VerticalAlignment="Center" Orientation="Vertical" Margin="75,0,75,0" />
                                 </ItemsPanelTemplate>
                             </ItemsControl.ItemsPanel>
+
+
                         </ItemsControl>
                     </ScrollViewer>
+                    
                 </Grid>
             </ContentControl>
         </Grid>
+
     </k:KinectRegion>
 </Window>

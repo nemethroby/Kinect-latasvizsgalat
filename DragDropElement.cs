@@ -59,9 +59,11 @@ namespace KinectGame
             double carX = Canvas.GetLeft(this);
             double carY = Canvas.GetTop(this);
            
-            var navigationRegion = Window.GetWindow(this).FindName("navigationRegion") as ContentControl;
-            var kinectRegionGrid = Window.GetWindow(this).FindName("kinectRegionGrid") as Grid;
-            var backButton = Window.GetWindow(this).FindName("backButton") as Button;
+            //var navigationRegion = Window.GetWindow(this).FindName("navigationRegion") as ContentControl;
+            //var kinectRegionGrid = Window.GetWindow(this).FindName("kinectRegionGrid") as Grid;
+            //var backButton = canvas.FindName("backButton") as Button;
+            var finishdoboz = canvas.FindName("Finish") as Canvas;
+            var finishlabel = canvas.FindName("Szoveg") as Label;
 
 
             if (moving)
@@ -87,18 +89,20 @@ namespace KinectGame
                     
                     
                     sw.Stop();
-                    MessageBoxResult result = MessageBox.Show("Az időd: "+sw.Elapsed.Seconds+"s Újra?", "", MessageBoxButton.YesNo, MessageBoxImage.Question);
-                    if (result == MessageBoxResult.Yes)
-                    {
-                         SampleDataItem sampleDataItem  = new SampleDataItem(typeof(Game));
-                         navigationRegion.Content = Activator.CreateInstance(sampleDataItem.NavigationPage);
-                    }
-                    else {
-                        backButton.Visibility = System.Windows.Visibility.Hidden;
-                        navigationRegion.Content = kinectRegionGrid;
-                    
-                    
-                    }
+                    //MessageBoxResult result = MessageBox.Show("Az időd: "+sw.Elapsed.Seconds+"s Újra?", "", MessageBoxButton.YesNo, MessageBoxImage.Question);
+                    finishdoboz.Visibility = System.Windows.Visibility.Visible;
+                    finishlabel.Content = "Congratulations! Your time" + sw.Elapsed.Seconds + "s Replay?";
+
+
+                    //if (result == MessageBoxResult.Yes)
+                    //{
+                    //     SampleDataItem sampleDataItem  = new SampleDataItem(typeof(Game));
+                    //     navigationRegion.Content = Activator.CreateInstance(sampleDataItem.NavigationPage);
+                    //}
+                    //else {
+                    //    backButton.Visibility = System.Windows.Visibility.Hidden;
+                    //    navigationRegion.Content = kinectRegionGrid;
+                   // }
                     
 
 
